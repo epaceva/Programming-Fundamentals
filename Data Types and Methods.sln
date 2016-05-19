@@ -3,23 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem1CenturiesToMinutes", "Problem1CenturiesToMinutes\Problem1CenturiesToMinutes.csproj", "{7350ED09-E8FD-4C5E-8DBD-19C02E8D5827}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem01CenturiesToMinutes", "Problem1CenturiesToMinutes\Problem01CenturiesToMinutes.csproj", "{7350ED09-E8FD-4C5E-8DBD-19C02E8D5827}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem2CircleArea", "Problem2CircleArea\Problem2CircleArea.csproj", "{AD6100E3-50A2-4424-A79D-74A73CF84849}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem02CircleArea", "Problem2CircleArea\Problem02CircleArea.csproj", "{AD6100E3-50A2-4424-A79D-74A73CF84849}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem3ExactSumOfRealNumbers", "Problem3ExactSumOfRealNumbers\Problem3ExactSumOfRealNumbers.csproj", "{09151E8D-7003-4608-B9BC-33DAE3BC59DE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem03ExactSumOfRealNumbers", "Problem3ExactSumOfRealNumbers\Problem03ExactSumOfRealNumbers.csproj", "{09151E8D-7003-4608-B9BC-33DAE3BC59DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem4Elevator", "Problem4Elevator\Problem4Elevator.csproj", "{9CE412CB-0EEA-4A43-B9D4-2B0FBC258E4A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem04Elevator", "Problem4Elevator\Problem04Elevator.csproj", "{9CE412CB-0EEA-4A43-B9D4-2B0FBC258E4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem5SpecialNumbers", "Problem5SpecialNumbers\Problem5SpecialNumbers.csproj", "{BAEE9B78-17A1-43CB-855B-F62642FB9FE0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem05SpecialNumbers", "Problem5SpecialNumbers\Problem05SpecialNumbers.csproj", "{BAEE9B78-17A1-43CB-855B-F62642FB9FE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem6TriplesOfLetters", "Problem6TriplesOfLetters\Problem6TriplesOfLetters.csproj", "{97243DE9-9BEE-4111-898B-7FAF9C9DE6C7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem06TriplesOfLetters", "Problem6TriplesOfLetters\Problem06TriplesOfLetters.csproj", "{97243DE9-9BEE-4111-898B-7FAF9C9DE6C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem7Greeting", "Problem7Greeting\Problem7Greeting.csproj", "{62A58CAA-EF33-43C0-9223-74EEF2B70D7B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem07Greeting", "Problem7Greeting\Problem07Greeting.csproj", "{62A58CAA-EF33-43C0-9223-74EEF2B70D7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem8DayOfWeek", "Problem8DayOfWeek\Problem8DayOfWeek.csproj", "{37DB107D-8FD1-458D-8C1E-C55BB7424FE2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem08DayOfWeek", "Problem8DayOfWeek\Problem08DayOfWeek.csproj", "{37DB107D-8FD1-458D-8C1E-C55BB7424FE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem9AnimalTime", "Problem9AnimalTime\Problem9AnimalTime.csproj", "{7814E2AF-6C58-4074-B862-C70A80B67403}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem09AnimalTime", "Problem9AnimalTime\Problem09AnimalTime.csproj", "{7814E2AF-6C58-4074-B862-C70A80B67403}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem10FilledSquare", "Problem10FilledSquare\Problem10FilledSquare.csproj", "{646BCF97-3BA8-45B1-80C5-BDA1C28820D8}"
 EndProject
@@ -38,6 +38,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem17ExchangeVariableValues", "Problem17ExchangeVariableValues\Problem17ExchangeVariableValues.csproj", "{4AE89110-9CE2-4A6F-904F-E84D61675BFC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem18EmployeeData", "Problem18EmployeeData\Problem18EmployeeData.csproj", "{2688C27E-60FB-4E59-B967-820158A95E25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem19ReverseCharacters", "Problem19ReverseCharacters\Problem19ReverseCharacters.csproj", "{02B0AC5E-CBBC-4C63-9AE9-BFBD6B6A53A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem20CenturiesToNanoseconds", "Problem20CenturiesToNanoseconds\Problem20CenturiesToNanoseconds.csproj", "{8E3A30A4-8CF3-4956-8BFF-9E3C08D2C328}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +121,14 @@ Global
 		{2688C27E-60FB-4E59-B967-820158A95E25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2688C27E-60FB-4E59-B967-820158A95E25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2688C27E-60FB-4E59-B967-820158A95E25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02B0AC5E-CBBC-4C63-9AE9-BFBD6B6A53A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02B0AC5E-CBBC-4C63-9AE9-BFBD6B6A53A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02B0AC5E-CBBC-4C63-9AE9-BFBD6B6A53A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02B0AC5E-CBBC-4C63-9AE9-BFBD6B6A53A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E3A30A4-8CF3-4956-8BFF-9E3C08D2C328}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E3A30A4-8CF3-4956-8BFF-9E3C08D2C328}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E3A30A4-8CF3-4956-8BFF-9E3C08D2C328}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E3A30A4-8CF3-4956-8BFF-9E3C08D2C328}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
