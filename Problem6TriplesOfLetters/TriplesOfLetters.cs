@@ -5,25 +5,25 @@ namespace Problem6TriplesOfLetters
 {
     class TriplesOfLetters
     {
-        int n;
         static void Main()
         {
             int n = int.Parse(Console.ReadLine());
-
-            Console.WriteLine();
+            for (int i = 0; i < n; i++)
+            {
+                for (int j = 0; j < n; j++)
+                {
+                    for (int k = 0; k < n; k++)
+                    {
+                        char firstLetter = (char)('a' + i);
+                        char secondLetter = (char)('a' + j);
+                        char thirdLetter = (char)('a' + k);
+                        Console.WriteLine("{0}{1}{2}", firstLetter, secondLetter, thirdLetter);
+                    }
+                }
+                
+            }
 
         }
-        private static void Swap(ref char a, ref char b)
-        {
-
-        }
-        //static void LatinAlphabet()
-        //{
-        //    List<char> alphabet = new List<char>();
-        //    for (char i = 'a'; i <= 'z'; i++)
-        //    {
-        //        alphabet.Add(i);
-        //    } 
-        //}
+      
     }
 }

@@ -7,17 +7,16 @@ namespace Problem8DayOfWeek
 
         static void Main()
         {
-            int number = 0;
-            do
-            {
-                string line = Console.ReadLine();
-                if (!int.TryParse(line, out number))
-                {
-                    continue;
-                }
-                WeekDay(number);
+            int number = int.Parse(Console.ReadLine());
 
-            } while (number <= 0 || number >= 7);
+            if (number >= 0 && number <= 7)
+            {
+                WeekDay(number);
+            }
+            else
+            {
+                Console.WriteLine("error");
+            }
         }
 
         static void WeekDay(int number)

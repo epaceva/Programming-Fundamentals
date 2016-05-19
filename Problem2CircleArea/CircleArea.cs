@@ -8,9 +8,7 @@ namespace Problem2CircleArea
         {
             double radius = double.Parse(Console.ReadLine());
 
-            double area = Math.PI * radius * radius;
-
-            Console.WriteLine("{0:f12}", area);
+            Console.WriteLine("{0:f12}", Math.PI * radius * radius);
         }
     }
 }

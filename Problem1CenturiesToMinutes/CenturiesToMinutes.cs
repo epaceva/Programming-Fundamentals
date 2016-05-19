@@ -7,18 +7,16 @@ namespace Problem1CenturiesToMinutes
         static void Main()
         {
             int centuries = int.Parse(Console.ReadLine());
-            double years = centuries * 100;
-            double days =  Math.Round(years * 365.242199);
-            double hours = days * 24;
-            double minutes = hours * 60;
-
+            int years = centuries * 100;
+            int days = (int) Math.Round(years * 365.242199);
+            int hours = days * 24;
+            int minutes = hours * 60;
 
             Console.WriteLine(centuries);
             Console.WriteLine(years);
             Console.WriteLine(days);
             Console.WriteLine(hours);
             Console.WriteLine(minutes);
-
         }
     }
 }
