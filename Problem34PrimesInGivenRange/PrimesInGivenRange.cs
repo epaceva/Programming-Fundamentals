@@ -9,12 +9,51 @@ namespace Problem34PrimesInGivenRange
         {
             int n = int.Parse(Console.ReadLine());
             int m = int.Parse(Console.ReadLine());
+            int counter = 0;
 
+            FindPrimesInRange(n, m, counter);
         }
-        static List<int> FindPrimesInRange (int startNum, int endNum)
+        static void FindPrimesInRange (int startNum, int endNum, int counter)
         {
 
-            return;
+            List<int> numbers = new List<int>();
+            if (startNum < 0 || endNum < 0)
+            {
+                startNum = 2;
+            }
+            if (startNum == 0 || startNum == 1)
+            {
+                startNum = 2;
+            }
+            if (startNum > endNum)
+            {
+                Console.WriteLine("Empty list");
+            }
+            for (int i = startNum; i <= endNum; i++)
+            {
+                for (int j = 1; j <= i; j++)
+                {
+                    if (i % j == 0)
+                    {
+                        counter++;
+                    }
+                    if (counter > 2)
+                    {
+                        break;
+                    }
+                }
+                if (counter <= 2)
+                {
+                    numbers.Add(i);
+                }
+                counter = 0;
+            }
+            foreach (var item in numbers)
+            {
+                Console.Write(item + ",");
+            }
+            Console.WriteLine();
+        
         }
         
     }

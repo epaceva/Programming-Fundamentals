@@ -71,6 +71,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem33PrimeChecker", "Pr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem34PrimesInGivenRange", "Problem34PrimesInGivenRange\Problem34PrimesInGivenRange.csproj", "{D70030ED-1C75-4E12-9115-3FD4FA3F45FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem25MasterNumbers", "Problem25MasterNumbers\Problem25MasterNumbers.csproj", "{B7CD61A8-93A7-4E48-A6D7-BDB4F43359D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -213,6 +215,10 @@ Global
 		{D70030ED-1C75-4E12-9115-3FD4FA3F45FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D70030ED-1C75-4E12-9115-3FD4FA3F45FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D70030ED-1C75-4E12-9115-3FD4FA3F45FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7CD61A8-93A7-4E48-A6D7-BDB4F43359D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7CD61A8-93A7-4E48-A6D7-BDB4F43359D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7CD61A8-93A7-4E48-A6D7-BDB4F43359D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7CD61A8-93A7-4E48-A6D7-BDB4F43359D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
