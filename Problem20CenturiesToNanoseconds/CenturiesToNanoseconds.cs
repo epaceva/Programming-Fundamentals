@@ -1,30 +1,28 @@
 ﻿using System;
+using System.Numerics;
 
-namespace Problem20CenturiesToNanoseconds
+namespace _20.CenturiesToNanoseconds
 {
     class CenturiesToNanoseconds
     {
         static void Main()
         {
             int centuries = int.Parse(Console.ReadLine());
-            int years = centuries * 100;
-            int days = (int)Math.Round(years * 365.242199);
-            decimal hours = days * 24;
-            decimal minutes = hours * 60;
-            decimal seconds = minutes * 60;
-            decimal milliseconds = seconds * 1000;
-            decimal microseconds = milliseconds * 1000;
-            decimal nanoseconds = microseconds * 1000;
-
-            Console.WriteLine(centuries);
-            Console.WriteLine(years);
-            Console.WriteLine(days);
-            Console.WriteLine(hours);
-            Console.WriteLine(minutes);
-            Console.WriteLine(seconds);
-            Console.WriteLine(milliseconds);
-            Console.WriteLine(microseconds);
-            Console.WriteLine(nanoseconds);
+            int years = 100 * centuries;
+            int days = (int)(years * 365.2422);
+            ulong hours = (ulong)(24 * days);
+            BigInteger minutes = 60 * hours;
+            BigInteger seconds = 60 * minutes;
+            BigInteger milliseconds = 1000 * seconds;
+            BigInteger microseconds = 1000 * milliseconds;
+            BigInteger nanoseconds = 1000 * microseconds;
+            Console.WriteLine($"{centuries} centuries = {years} years = {days} days = {hours} 
+                                hours = { minutes}
+            minutes = { seconds}
+            seconds = { milliseconds}
+            milliseconds = { microseconds}
+            microseconds = { nanoseconds}
+            nanoseconds");
         }
     }
 }
