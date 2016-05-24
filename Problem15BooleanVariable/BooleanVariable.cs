@@ -7,8 +7,18 @@ namespace Problem15BooleanVariable
         static void Main()
         {
             string a = Console.ReadLine();
-            bool b = Convert.ToBoolean(a);
-            Console.WriteLine(b);
+            IsBoool(a);
+        }
+        static void IsBoool(string b)
+        {
+            if (b == "True")
+            {
+                Console.WriteLine(("Yes"));
+            }
+            else 
+            {
+                Console.WriteLine(("No"));
+            }
         }
     }
 }

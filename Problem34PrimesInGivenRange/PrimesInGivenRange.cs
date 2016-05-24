@@ -48,9 +48,13 @@ namespace Problem34PrimesInGivenRange
                 }
                 counter = 0;
             }
-            foreach (var item in numbers)
+            for(int i = 0; i < numbers.Count; i++)
             {
-                Console.Write(item + ",");
+                Console.Write(numbers[i]);
+                if (i != numbers.Count -1)
+                {
+                    Console.Write(", ");
+                }
             }
             Console.WriteLine();
         
